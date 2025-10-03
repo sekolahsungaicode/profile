@@ -179,7 +179,7 @@ const Home = () => {
           <h1 className="text-center lg:text-5xl/tight text-3xl font-bold mb-2">
             Aktivitas
           </h1>
-          <p className="text-gray-600 text-center">Yuk mengenal aktivitas kita</p>
+          <p className="text-gray-600 text-center">Di Sekolah Sungai Code kita ngapain aja sih?</p>
 
           <div className="pt-12 px-4">
             <Swiper
@@ -247,11 +247,11 @@ const Home = () => {
                   ‹
                 </div>
                 <div className="custom-next absolute top-1/2 right-4 z-10 
-                  bg-white text-blue-600 border-2 border-blue-600 
-                  w-14 h-14 text-2xl rounded-full flex items-center 
-                  justify-center cursor-pointer shadow-xl 
-                  hover:bg-blue-600 hover:text-white transition">
-                  ›
+                bg-white text-blue-600 border-2 border-blue-600 
+                w-14 h-14 text-2xl rounded-full flex items-center 
+                justify-center cursor-pointer shadow-xl 
+                hover:bg-blue-600 hover:text-white transition">
+                ›
                 </div>
 
               {/* Tambah slide berikutnya tinggal copy SwiperSlide */}
@@ -286,7 +286,7 @@ const Home = () => {
             >
               {/* Slide 1 */}
               <SwiperSlide>
-                <a href="https://www.instagram.com/p/DOLgoR9iTNA/?img_index=1" target="_blank">
+                <a href="" target="_blank">
                   <div className="p-2 bg-white shadow rounded-lg h-full">
                       <img src={port1} alt="Bapak Totok" className="w-full h-auto" />
                       <h2 className="text-xl font-bold mt-6 mb-2">Totok Pratopo</h2>
@@ -299,7 +299,7 @@ const Home = () => {
 
                {/* Slide 1 */}
               <SwiperSlide>
-                <a href="https://www.instagram.com/p/DOLgoR9iTNA/?img_index=1" target="_blank">
+                <a href="" target="_blank">
                   <div className="p-2 bg-white shadow rounded-lg h-full">
                       <img src={port2} alt="Bapak Harris" className="w-full h-auto" />
                       <h2 className="text-xl font-bold mt-6 mb-2">Harris Syarif Usman S.H., M.Kn. </h2>
@@ -321,7 +321,7 @@ const Home = () => {
           <h1 className="text-center lg:text-5xl/tight text-3xl font-bold mb-2">
             Galeri
           </h1>
-          <p className="text-center">Galeri Sekolah Sungai Code</p>
+          <p className="text-center"></p>
 
           <div className="pt-12 px-4">
             <Swiper
@@ -566,14 +566,14 @@ const Home = () => {
 
       <textarea
         name="like"
-        placeholder="Apa yang kamu sukai?"
+        placeholder="Bagaimana menurut kamu kegiatan Sekolah Sungai Code?"
         onChange={handleChange}
         className="w-full px-4 py-2 border rounded"
       />
 
       <textarea
         name="improve"
-        placeholder="Saran perbaikan"
+        placeholder="Kritik atau saran"
         onChange={handleChange}
         className="w-full px-4 py-2 border rounded"
       />
