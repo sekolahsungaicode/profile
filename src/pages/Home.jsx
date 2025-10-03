@@ -12,12 +12,6 @@ import gal3 from "../assets/images/sekolahsungai.png"
 import gal4 from "../assets/images/pemertikalicode.png"
 import gal5 from "../assets/images/bincangsungai.png"
 import gal6 from "../assets/images/reresikcode.png"
-import port6 from "../assets/images/intermediate2.png"
-import port7 from "../assets/images/pam.png"
-import port8 from "../assets/images/personaway.png"
-import port9 from "../assets/images/unycraft.png"
-import port10 from "../assets/images/unycraftapp.png"
-import port11 from "../assets/images/spkweb.png"
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import { FaBars, FaTimes, FaInstagram, FaEnvelope, FaWhatsapp, FaFacebook, FaMapMarkedAlt } from 'react-icons/fa'; 
